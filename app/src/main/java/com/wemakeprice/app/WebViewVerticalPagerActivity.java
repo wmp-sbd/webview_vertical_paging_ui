@@ -7,6 +7,13 @@ import android.text.TextUtils;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+/**
+ * @author ByunghooLim
+ *
+ * BottomToolBarWebView를 이용한 샘플 액티비티.
+ * Top과 Bottom에 각각 BottomToolBarWebView가 위치하고
+ * touch 이벤트에 의해 Top과 Bottom이 tranlationY할때 하단 toolBar가 반응 하게 구현함.
+ */
 public class WebViewVerticalPagerActivity extends Activity implements OnWebViewScrollChangeListener, ViewSizeInterface {
     private BottomToolBarWebView mTopWebView;
     private BottomToolBarWebView mBottomWebView;

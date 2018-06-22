@@ -3,7 +3,15 @@ package com.wemakeprice.app;
 import android.content.Context;
 import android.util.TypedValue;
 
+/**
+ * @author ByunghooLim
+ *
+ * BottomToolBarWebView와 함께 사용되는 toolbar 크기와 BottomToolBarWebView height를 설정하는 default interface
+ */
 interface ViewSizeInterface {
+    /**
+     * Toolbar height값의 DP값
+     */
     int TOOLBAR_HEIGHT_DP = 50;
 
     default int getStatusBarHeight(Context context) {
